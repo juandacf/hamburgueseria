@@ -1,0 +1,8 @@
+Naranja: #FF702A
+Verde: #12B886
+Azul fondo: #1E1D2B
+Verde: #12B886
+Piel: #FFEFE8
+Azul Oscuro: #FFEFE8
+
+Font: Fira code

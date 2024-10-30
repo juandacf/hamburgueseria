@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    background-color: #1E1D2B;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#header {
+    width:100vw;
+    display: fixed;
+    
+}
+.navTable {
+    width: 50vw;
+    height:5vh;
+}
+.menuElements {
+    text-align: right;
+    font-size: 2rem;
+    padding-right: 4rem;
+    font-weight:600;
+}
+h1{
+    margin-bottom:0.4rem;
+}
+.navLink {
+    color:white;
+    text-decoration: none;
+    margin:1rem;
+
+}
+button {
+    background-color:#FF702A;
+    color:white;   
+}
+#title{
+    color: #FF702A;
+    text-align: left;
+    font-size:3rem;
+    padding-left: 7rem
+}
+#home {
+    width:100vw;
+    height:100vh;
+}
+
+#about {
+    width:100vw;
+    height:100vh;  
+}
+#menu {
+    width:100vw;
+    height:100vh;
+}
+#service{
+    width:100vw;
+    height:100vh;
+}
+#contact {
+    width:100vw;
+    height:100vh;
+}
+#homeLayout{
+    width:100vw;
+    height:100vh;
+}
+.homeLayoutOne{
+    width: 50vw;
+}
+#homeFirst{
+    text-align: left;
+    padding-left: 16rem;
+    padding-bottom: 16rem;
+}
+h1{
+    color:#FF702A;
+    font-size:7rem;
+}
+#homeSubtitle {
+    color:white;
+    font-weight:600;
+    margin-bottom:3rem;
+}
