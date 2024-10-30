@@ -4,11 +4,13 @@
     background-color: #1E1D2B;
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
+    margin:0;
+    padding:0;
 }
 
-#header {
+.header {
     width:100vw;
-    display: fixed;
+    position:fixed;
     
 }
 .navTable {
@@ -32,7 +34,11 @@ h1{
 }
 button {
     background-color:#FF702A;
-    color:white;   
+    color:white;
+    border: none;
+    padding:0.4rem;
+    padding-left:1rem;
+    padding-right:1rem;   
 }
 #title{
     color: #FF702A;
@@ -81,4 +87,36 @@ h1{
     color:white;
     font-weight:600;
     margin-bottom:3rem;
+}
+#homeImage {
+    padding-bottom: 10rem;
+    height: 65vh;
+}
+.aboutLayout {
+    width:50vw;
+    height:100vh;
+}
+#aboutImg{
+    padding-left:17vw;
+}
+.aboutUsTitle {
+    color: #FF702A
+}
+.aboutSubtitle {
+    color:white;
+}
+#paragraphAbout {
+    color:white;
+}
+.aboutItem {
+    margin-top: 1rem;
+}
+
+#menuLayout {
+    width:70vw;
+    margin:auto;
+    text-align: center;
+}
+.imgMenu{
+    background-color: #FFEFE8;
 }
