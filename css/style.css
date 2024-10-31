@@ -161,17 +161,21 @@ h1{
 }
 
 #upContactMain{
-    height:50vh;
+    height:35vh;
     width:70vw;
     position:relative;
     margin:auto;
     background-color: #FFEFE8;
     text-align: center;
-    padding-top:15rem;
+    padding-top:10rem;
     font-weight: bold;
     font-size: 4rem;
 }
 #contactButton {
     position:relative;
     z-index: 10;
+}
+.lowerTable{
+    color:white;
+    text-align: center;
 }
