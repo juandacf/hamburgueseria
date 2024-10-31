@@ -7,6 +7,9 @@
     margin:0;
     padding:0;
 }
+html{
+    font-size: 20px;
+}
 
 .header {
     width:100vw;
@@ -100,10 +103,11 @@ h1{
     padding-left:17vw;
 }
 .aboutUsTitle {
-    color: #FF702A
+    color: #FF702A;
 }
 .aboutSubtitle {
     color:white;
+    margin-bottom: 2rem;
 }
 #paragraphAbout {
     color:white;
@@ -112,11 +116,27 @@ h1{
     margin-top: 1rem;
 }
 
-#menuLayout {
+.menuLayout {
+    position:relative;
+    border-collapse: separate;
+    border-spacing: 5rem 0px;
     width:70vw;
     margin:auto;
     text-align: center;
+    top:15vh;
+    padding:1rem;
 }
-.imgMenu{
+.beige{
     background-color: #FFEFE8;
+    margin:1rem;
+}
+#menuTitle {
+    padding:1rem;
+}
+
+.menuItem{
+    margin:10px;
+}
+.classService {
+    width:18vw;
 }
