@@ -8,12 +8,13 @@
     padding:0;
 }
 html{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .header {
     width:100vw;
     position:fixed;
+    z-index: 10;
     
 }
 .navTable {
@@ -139,4 +140,38 @@ h1{
 }
 .classService {
     width:18vw;
+}
+.serviceTitle{
+    font-size: 1.5rem;
+    color:#FF702A
+}
+.serviceParagraph {
+    font-size: 1rem;
+    color:white;
+}
+
+#upperContact {
+    width:100vw;
+    height:70vh;
+}
+
+#lowerContact{
+    width:100vw;
+    height:30vh;
+}
+
+#upContactMain{
+    height:50vh;
+    width:70vw;
+    position:relative;
+    margin:auto;
+    background-color: #FFEFE8;
+    text-align: center;
+    padding-top:15rem;
+    font-weight: bold;
+    font-size: 4rem;
+}
+#contactButton {
+    position:relative;
+    z-index: 10;
 }
