@@ -168,7 +168,7 @@ h1{
     margin:auto;
     background-color: #FFEFE8;
     text-align: center;
-    padding-top:10rem;
+    padding-top:2rem;
     font-weight: bold;
     font-size: 4rem;
 }
@@ -185,13 +185,102 @@ h1{
 th{
     padding: 1rem;
 }
-#iconContainer {
-    
-}
 .iconContact {
     height:30px;
     width:30px;
     border-radius: 50%;
     background-color: #FF702A;
     display:inline-block;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+  align-items: center;
+  padding: 1rem;
+  color: white;
+  position: fixed;
+  z-index: 10;
+}
+
+/* responsive */
+nav.active {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+nav h2.logo {
+  font-weight: bold;
+  font-size: xx-large;
+  color:#FF702A;
+  padding-left: 2rem;
+  font-size: 3rem;
+
+}
+
+nav .bars {
+  position: absolute;
+  right: 1rem;
+  font-size: xx-large;
+  display: none;
+}
+
+ul.nav-links {
+  display: flex;
+}
+
+/* responsive */
+nav.active ul.nav-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+li.nav-link {
+  list-style: none;
+  margin: 0.5rem 1rem;
+  padding: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+
+
+li.nav-link.auth {
+  border-radius: 1rem;
+}
+
+li.nav-link a {
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 800px) {
+  nav .bars {
+    display: block;
+    width: 3rem;
+    height:3rem;
+    background-color: #FF702A;
+    border-radius: 50%;
+  }
+
+  nav .nav-links {
+    display: none;
+  }
 }
